@@ -1,0 +1,105 @@
+{
+	"Caption": "A_SalesOrderScheduleLineType Detail",
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H.service",
+		"EntitySet": "A_SalesOrderScheduleLine",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{SalesOrder}",
+						"Subhead": "{SalesOrderItem}",
+						"BodyText": "",
+						"Footnote": "{RequestedDeliveryDate}",
+						"Description": "{ScheduleLine}",
+						"StatusText": "{ConfirmedDeliveryDate}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{OrderQuantityUnit}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "SalesOrder",
+							"Value": "{SalesOrder}"
+						},
+						{
+							"KeyName": "SalesOrderItem",
+							"Value": "{SalesOrderItem}"
+						},
+						{
+							"KeyName": "ScheduleLine",
+							"Value": "{ScheduleLine}"
+						},
+						{
+							"KeyName": "RequestedDeliveryDate",
+							"Value": "{RequestedDeliveryDate}"
+						},
+						{
+							"KeyName": "ConfirmedDeliveryDate",
+							"Value": "{ConfirmedDeliveryDate}"
+						},
+						{
+							"KeyName": "OrderQuantityUnit",
+							"Value": "{OrderQuantityUnit}"
+						},
+						{
+							"KeyName": "OrderQuantitySAPUnit",
+							"Value": "{OrderQuantitySAPUnit}"
+						},
+						{
+							"KeyName": "OrderQuantityISOUnit",
+							"Value": "{OrderQuantityISOUnit}"
+						},
+						{
+							"KeyName": "ScheduleLineOrderQuantity",
+							"Value": "{ScheduleLineOrderQuantity}"
+						},
+						{
+							"KeyName": "ConfdOrderQtyByMatlAvailCheck",
+							"Value": "{ConfdOrderQtyByMatlAvailCheck}"
+						},
+						{
+							"KeyName": "DeliveredQtyInOrderQtyUnit",
+							"Value": "{DeliveredQtyInOrderQtyUnit}"
+						},
+						{
+							"KeyName": "OpenConfdDelivQtyInOrdQtyUnit",
+							"Value": "{OpenConfdDelivQtyInOrdQtyUnit}"
+						},
+						{
+							"KeyName": "CorrectedQtyInOrderQtyUnit",
+							"Value": "{CorrectedQtyInOrderQtyUnit}"
+						},
+						{
+							"KeyName": "DelivBlockReasonForSchedLine",
+							"Value": "{DelivBlockReasonForSchedLine}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrderScheduleLine_Detail",
+	"PrefersLargeCaption": true
+}

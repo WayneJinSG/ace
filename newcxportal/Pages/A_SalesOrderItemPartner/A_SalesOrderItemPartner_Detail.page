@@ -1,0 +1,77 @@
+{
+	"Caption": "A_SalesOrderItemPartnerType Detail",
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H.service",
+		"EntitySet": "A_SalesOrderItemPartner",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{SalesOrder}",
+						"Subhead": "{SalesOrderItem}",
+						"BodyText": "",
+						"Footnote": "{Customer}",
+						"Description": "{PartnerFunction}",
+						"StatusText": "{Supplier}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{Personnel}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "SalesOrder",
+							"Value": "{SalesOrder}"
+						},
+						{
+							"KeyName": "SalesOrderItem",
+							"Value": "{SalesOrderItem}"
+						},
+						{
+							"KeyName": "PartnerFunction",
+							"Value": "{PartnerFunction}"
+						},
+						{
+							"KeyName": "Customer",
+							"Value": "{Customer}"
+						},
+						{
+							"KeyName": "Supplier",
+							"Value": "{Supplier}"
+						},
+						{
+							"KeyName": "Personnel",
+							"Value": "{Personnel}"
+						},
+						{
+							"KeyName": "ContactPerson",
+							"Value": "{ContactPerson}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrderItemPartner_Detail",
+	"PrefersLargeCaption": true
+}

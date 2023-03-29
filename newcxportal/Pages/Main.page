@@ -1,0 +1,57 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Subhead": "Subhead",
+						"Footnote": "Footnote",
+						"Description": "Description",
+						"StatusText": "Status",
+						"SubstatusText": "v1.0.0",
+						"BodyText": "Show the body text",
+						"HeadlineText": "Advanced Customer Experience Portal",
+						"StatusPosition": "Stacked",
+						"StatusImagePosition": "Leading",
+						"SubstatusImagePosition": "Leading"
+					},
+					"_Type": "Section.Type.ObjectHeader",
+					"_Name": "SectionObjectHeader0",
+					"Visible": true
+				}
+			]
+		}
+	],
+	"DesignTimeTarget": {
+		"Service": "",
+		"EntitySet": ""
+	},
+	"_Type": "Page",
+	"_Name": "Main",
+	"Caption": "ACE",
+	"PrefersLargeCaption": true,
+	"ToolBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ToolbarItem",
+				"_Name": "LogoutToolbarItem",
+				"Caption": "Logout",
+				"Enabled": true,
+				"Visible": true,
+				"Clickable": true,
+				"OnPress": "/NewCXPortal/Actions/LogoutMessage.action"
+			},
+			{
+				"_Type": "Control.Type.ToolbarItem",
+				"_Name": "UpdateToolbarItem",
+				"Caption": "Update",
+				"Enabled": true,
+				"Visible": "$(PLT,true,true,false)",
+				"Clickable": true,
+				"OnPress": "/NewCXPortal/Actions/AppUpdateProgressBanner.action"
+			}
+		]
+	}
+}

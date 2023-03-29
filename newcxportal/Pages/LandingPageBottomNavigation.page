@@ -1,0 +1,47 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.BottomNavigation",
+			"_Name": "BottomNavigation0",
+			"Items": [
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "Sales Orders",
+					"Image": "sap-icon://my-sales-order",
+					"PageToOpen": "/NewCXPortal/Pages/CustomerOrders.page",
+					"_Name": "Sales Orders"
+				},
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "Delivery Status",
+					"Image": "sap-icon://shipping-status",
+					"PageToOpen": "/NewCXPortal/Pages/DeliveryStatus.page",
+					"_Name": "Delivery Status"
+				},
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "Purchase Orders",
+					"Image": "sap-icon://sales-document",
+					"PageToOpen": "/NewCXPortal/Pages/PurchaseOrders.page",
+					"_Name": "Purchase Orders"
+				},
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "Business Partners",
+					"Image": "sap-icon://customer",
+					"PageToOpen": "/NewCXPortal/Pages/BusinessPartners.page",
+					"_Name": "Business Partners"
+				},
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "Products",
+					"Image": "sap-icon://product",
+					"PageToOpen": "/NewCXPortal/Pages/Products.page",
+					"_Name": "TabItem2"
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "LandingPageBottomNavigation"
+}

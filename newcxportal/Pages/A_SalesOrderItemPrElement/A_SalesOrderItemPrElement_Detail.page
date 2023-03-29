@@ -1,0 +1,221 @@
+{
+	"Caption": "A_SalesOrderItemPrElementType Detail",
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H.service",
+		"EntitySet": "A_SalesOrderItemPrElement",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{SalesOrder}",
+						"Subhead": "{SalesOrderItem}",
+						"BodyText": "",
+						"Footnote": "{PricingProcedureCounter}",
+						"Description": "{PricingProcedureStep}",
+						"StatusText": "{ConditionType}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{PricingDateTime}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "SalesOrder",
+							"Value": "{SalesOrder}"
+						},
+						{
+							"KeyName": "SalesOrderItem",
+							"Value": "{SalesOrderItem}"
+						},
+						{
+							"KeyName": "PricingProcedureStep",
+							"Value": "{PricingProcedureStep}"
+						},
+						{
+							"KeyName": "PricingProcedureCounter",
+							"Value": "{PricingProcedureCounter}"
+						},
+						{
+							"KeyName": "ConditionType",
+							"Value": "{ConditionType}"
+						},
+						{
+							"KeyName": "PricingDateTime",
+							"Value": "{PricingDateTime}"
+						},
+						{
+							"KeyName": "ConditionCalculationType",
+							"Value": "{ConditionCalculationType}"
+						},
+						{
+							"KeyName": "ConditionBaseValue",
+							"Value": "{ConditionBaseValue}"
+						},
+						{
+							"KeyName": "ConditionRateValue",
+							"Value": "{ConditionRateValue}"
+						},
+						{
+							"KeyName": "ConditionCurrency",
+							"Value": "{ConditionCurrency}"
+						},
+						{
+							"KeyName": "ConditionQuantity",
+							"Value": "{ConditionQuantity}"
+						},
+						{
+							"KeyName": "ConditionQuantityUnit",
+							"Value": "{ConditionQuantityUnit}"
+						},
+						{
+							"KeyName": "ConditionQuantitySAPUnit",
+							"Value": "{ConditionQuantitySAPUnit}"
+						},
+						{
+							"KeyName": "ConditionQuantityISOUnit",
+							"Value": "{ConditionQuantityISOUnit}"
+						},
+						{
+							"KeyName": "ConditionCategory",
+							"Value": "{ConditionCategory}"
+						},
+						{
+							"KeyName": "ConditionIsForStatistics",
+							"Value": "{ConditionIsForStatistics}"
+						},
+						{
+							"KeyName": "PricingScaleType",
+							"Value": "{PricingScaleType}"
+						},
+						{
+							"KeyName": "IsRelevantForAccrual",
+							"Value": "{IsRelevantForAccrual}"
+						},
+						{
+							"KeyName": "CndnIsRelevantForInvoiceList",
+							"Value": "{CndnIsRelevantForInvoiceList}"
+						},
+						{
+							"KeyName": "ConditionOrigin",
+							"Value": "{ConditionOrigin}"
+						},
+						{
+							"KeyName": "IsGroupCondition",
+							"Value": "{IsGroupCondition}"
+						},
+						{
+							"KeyName": "ConditionRecord",
+							"Value": "{ConditionRecord}"
+						},
+						{
+							"KeyName": "ConditionSequentialNumber",
+							"Value": "{ConditionSequentialNumber}"
+						},
+						{
+							"KeyName": "TaxCode",
+							"Value": "{TaxCode}"
+						},
+						{
+							"KeyName": "WithholdingTaxCode",
+							"Value": "{WithholdingTaxCode}"
+						},
+						{
+							"KeyName": "CndnRoundingOffDiffAmount",
+							"Value": "{CndnRoundingOffDiffAmount}"
+						},
+						{
+							"KeyName": "ConditionAmount",
+							"Value": "{ConditionAmount}"
+						},
+						{
+							"KeyName": "TransactionCurrency",
+							"Value": "{TransactionCurrency}"
+						},
+						{
+							"KeyName": "ConditionControl",
+							"Value": "{ConditionControl}"
+						},
+						{
+							"KeyName": "ConditionInactiveReason",
+							"Value": "{ConditionInactiveReason}"
+						},
+						{
+							"KeyName": "ConditionClass",
+							"Value": "{ConditionClass}"
+						},
+						{
+							"KeyName": "PrcgProcedureCounterForHeader",
+							"Value": "{PrcgProcedureCounterForHeader}"
+						},
+						{
+							"KeyName": "FactorForConditionBasisValue",
+							"Value": "{FactorForConditionBasisValue}"
+						},
+						{
+							"KeyName": "StructureCondition",
+							"Value": "{StructureCondition}"
+						},
+						{
+							"KeyName": "PeriodFactorForCndnBasisValue",
+							"Value": "{PeriodFactorForCndnBasisValue}"
+						},
+						{
+							"KeyName": "PricingScaleBasis",
+							"Value": "{PricingScaleBasis}"
+						},
+						{
+							"KeyName": "ConditionScaleBasisValue",
+							"Value": "{ConditionScaleBasisValue}"
+						},
+						{
+							"KeyName": "ConditionScaleBasisUnit",
+							"Value": "{ConditionScaleBasisUnit}"
+						},
+						{
+							"KeyName": "ConditionScaleBasisCurrency",
+							"Value": "{ConditionScaleBasisCurrency}"
+						},
+						{
+							"KeyName": "CndnIsRelevantForIntcoBilling",
+							"Value": "{CndnIsRelevantForIntcoBilling}"
+						},
+						{
+							"KeyName": "ConditionIsManuallyChanged",
+							"Value": "{ConditionIsManuallyChanged}"
+						},
+						{
+							"KeyName": "ConditionIsForConfiguration",
+							"Value": "{ConditionIsForConfiguration}"
+						},
+						{
+							"KeyName": "VariantCondition",
+							"Value": "{VariantCondition}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrderItemPrElement_Detail",
+	"PrefersLargeCaption": true
+}

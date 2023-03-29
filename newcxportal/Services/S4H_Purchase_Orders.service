@@ -1,0 +1,10 @@
+{
+	"DestinationName": "S4H_Purchase_Orders",
+	"OfflineEnabled": false,
+	"OnlineOptions": {
+		"CSDLOptions": [
+			"ignoreAllReferences"
+		]
+	},
+	"SourceType": "Cloud"
+}

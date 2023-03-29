@@ -1,0 +1,22 @@
+{
+	"_Type": "Action.Type.ODataService.Initialize",
+	"ActionResult": {
+		"_Name": "InitializeOnlinePurchaseOrdersService"
+	},
+	"OnFailure": "/NewCXPortal/Actions/Service/InitializeOnlineFailureMessage.action",
+	"OnSuccess": "/NewCXPortal/Actions/Service/InitializeOnlineSuccessMessage.action",
+	"OnSuccessLog": {
+		"Message": "",
+		"Level": "Trace"
+	},
+	"OnInvalidLog": {
+		"Message": "",
+		"Level": "Trace"
+	},
+	"OnFailureLog": {
+		"Message": "",
+		"Level": "Trace"
+	},
+	"ShowActivityIndicator": true,
+	"Service": "/NewCXPortal/Services/S4H_Purchase_Orders.service"
+}

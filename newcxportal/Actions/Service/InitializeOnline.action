@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.ODataService.Initialize",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnFailure": "/NewCXPortal/Actions/Service/InitializeOnlineFailureMessage.action",
+	"OnSuccess": "/NewCXPortal/Actions/Service/InitializeOnlinePurchaseOrdersService.action",
+	"ShowActivityIndicator": true,
+	"Service": "/NewCXPortal/Services/S4H.service"
+}

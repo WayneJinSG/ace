@@ -1,0 +1,69 @@
+{
+	"Caption": "A_SalesOrderItemTextType Detail",
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H.service",
+		"EntitySet": "A_SalesOrderItemText",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{LongTextID}",
+						"Subhead": "{SalesOrder}",
+						"BodyText": "",
+						"Footnote": "{Language}",
+						"Description": "{SalesOrderItem}",
+						"StatusText": "{LongText}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": ""
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "SalesOrder",
+							"Value": "{SalesOrder}"
+						},
+						{
+							"KeyName": "SalesOrderItem",
+							"Value": "{SalesOrderItem}"
+						},
+						{
+							"KeyName": "Language",
+							"Value": "{Language}"
+						},
+						{
+							"KeyName": "LongTextID",
+							"Value": "{LongTextID}"
+						},
+						{
+							"KeyName": "LongText",
+							"Value": "{LongText}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrderItemText_Detail",
+	"PrefersLargeCaption": true
+}

@@ -1,0 +1,216 @@
+{
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H.service",
+		"EntitySet": "A_SalesOrder",
+		"QueryOptions": ""
+	},
+	"Controls": [
+		{
+			"DataSubscriptions": [
+				"A_SalesOrderItem",
+				"A_SalesOrderHeaderPartner",
+				"A_SlsOrdPaymentPlanItemDetails",
+				"A_SalesOrderHeaderPrElement",
+				"A_SalesOrderText"
+			],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Subhead": "Order Type: {SalesOrderType}",
+						"Footnote": "Total Value: $(C,{TotalNetAmount},{TransactionCurrency},'',{maximumFractionDigits:2,useGrouping:true})",
+						"Description": "Creation Date: $(D,{CreationDate},'','',{format:'medium'})",
+						"StatusText": "Purchase Order: {PurchaseOrderByCustomer}",
+						"SubstatusText": "Purchase Order Date: {CustomerPurchaseOrderDate}",
+						"Tags": [],
+						"HeadlineText": "Sales Order: {SalesOrder}",
+						"StatusPosition": "Stacked",
+						"StatusImagePosition": "Leading",
+						"SubstatusImagePosition": "Leading"
+					},
+					"_Type": "Section.Type.ObjectHeader",
+					"_Name": "SectionObjectHeader0"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"Value": "{CreatedByUser}",
+							"_Name": "KeyValue10",
+							"KeyName": "Created By:"
+						},
+						{
+							"Value": "{LastChangeDate}",
+							"_Name": "KeyValue11",
+							"KeyName": "Last Change:"
+						},
+						{
+							"Value": "$(D,{RequestedDeliveryDate},'','',{format:'medium'})",
+							"_Name": "KeyValue24",
+							"KeyName": "Requested Delivery Date:"
+						},
+						{
+							"Value": "{OverallSDProcessStatus}",
+							"_Name": "KeyValue66",
+							"KeyName": "Overall Processing Status:"
+						},
+						{
+							"Value": "{TotalCreditCheckStatus}",
+							"_Name": "KeyValue67",
+							"KeyName": "Credit Check Status:"
+						},
+						{
+							"Value": "{OverallTotalDeliveryStatus}",
+							"_Name": "KeyValue68",
+							"KeyName": "Delivery Status:"
+						},
+						{
+							"Value": "{OverallSDDocumentRejectionSts}",
+							"_Name": "KeyValue69",
+							"KeyName": "Rejection Status:"
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue0",
+					"Header": {
+						"_Name": "SectionHeader5",
+						"UseTopPadding": true,
+						"Caption": "Order Details"
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				},
+				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": true,
+						"Caption": "to_Item"
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "{@odata.readLink}/to_Item",
+						"Service": "/NewCXPortal/Services/S4H.service"
+					},
+					"_Name": "SectionObjectTable0",
+					"EmptySection": {
+						"Caption": "No record found!",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"Title": "{SalesOrder}",
+						"Subhead": "{SalesOrderItem}",
+						"Footnote": "{SalesOrderItemCategory}",
+						"Description": "{HigherLevelItem}",
+						"StatusText": "{SalesOrderItemText}",
+						"SubstatusText": "{PurchaseOrderByCustomer}",
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"Tags": [],
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderItem/NavToA_SalesOrderItem_Detail.action",
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true
+						}
+					}
+				},
+				{
+					"Header": {
+						"_Name": "SectionHeader1",
+						"UseTopPadding": true,
+						"Caption": "to_Partner"
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "{@odata.readLink}/to_Partner",
+						"Service": "/NewCXPortal/Services/S4H.service"
+					},
+					"_Name": "SectionObjectTable1",
+					"EmptySection": {
+						"Caption": "No record found!",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"Title": "{SalesOrder}",
+						"Subhead": "{PartnerFunction}",
+						"Footnote": "{Supplier}",
+						"Description": "{Customer}",
+						"StatusText": "{Personnel}",
+						"SubstatusText": "{ContactPerson}",
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"Tags": [],
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderHeaderPartner/NavToA_SalesOrderHeaderPartner_Detail.action",
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true
+						}
+					}
+				},
+				{
+					"Header": {
+						"_Name": "SectionHeader4",
+						"UseTopPadding": true,
+						"Caption": "to_Text"
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "{@odata.readLink}/to_Text",
+						"Service": "/NewCXPortal/Services/S4H.service"
+					},
+					"_Name": "SectionObjectTable4",
+					"EmptySection": {
+						"Caption": "No record found!",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"Title": "{LongTextID}",
+						"Subhead": "{SalesOrder}",
+						"Footnote": "{LongText}",
+						"Description": "{Language}",
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"Tags": [],
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderText/NavToA_SalesOrderText_Detail.action",
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrder_Detail",
+	"Caption": "Sales Order Details",
+	"PrefersLargeCaption": true
+}

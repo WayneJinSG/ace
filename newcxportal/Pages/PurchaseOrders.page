@@ -1,0 +1,89 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": true,
+						"Caption": "Purchase Orders"
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"Service": "/NewCXPortal/Services/S4H_Purchase_Orders.service",
+						"EntitySet": "I_Plant",
+						"QueryOptions": "$top=10"
+					},
+					"_Name": "SectionObjectTable0",
+					"Visible": true,
+					"EmptySection": {
+						"Caption": "No purchase orders found",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true
+						},
+						"Title": "{Plant}",
+						"Subhead": "Subhead",
+						"Footnote": "Footnote",
+						"Description": "Description",
+						"DisplayDescriptionInMobile": true,
+						"StatusText": "Status",
+						"SubstatusText": "Substatus",
+						"PreserveIconStackSpacing": true,
+						"AccessoryType": "none",
+						"ProgressIndicator": "inProgress",
+						"Tags": [
+							{
+								"Text": "tag"
+							}
+						],
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": "sap-icon://customer",
+									"ImageText": ""
+								}
+							],
+							"ImageIsCircular": true,
+							"ImageHasBorder": false
+						},
+						"AvatarGrid": {
+							"Avatars": [
+								{
+									"Image": "sap-icon://customer",
+									"ImageText": ""
+								}
+							],
+							"ImageIsCircular": true
+						},
+						"Selected": false
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					},
+					"HighlightSelectedItem": false,
+					"Selection": {
+						"ExitOnLastDeselect": true,
+						"LongPressToEnable": "None",
+						"Mode": "None"
+					}
+				}
+			]
+		}
+	],
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H_Purchase_Orders.service",
+		"EntitySet": "C_PurchaseOrderFs",
+		"QueryOptions": "$top=10"
+	},
+	"_Type": "Page",
+	"_Name": "PurchaseOrders",
+	"Caption": "My Purchase Orders",
+	"PrefersLargeCaption": true
+}

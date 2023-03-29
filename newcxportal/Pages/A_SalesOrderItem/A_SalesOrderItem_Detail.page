@@ -1,0 +1,446 @@
+{
+	"Caption": "A_SalesOrderItemType Detail",
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H.service",
+		"EntitySet": "A_SalesOrderItem",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{SalesOrder}",
+						"Subhead": "{SalesOrderItem}",
+						"BodyText": "",
+						"Footnote": "{SalesOrderItemCategory}",
+						"Description": "{HigherLevelItem}",
+						"StatusText": "{SalesOrderItemText}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{PurchaseOrderByCustomer}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "SalesOrder",
+							"Value": "{SalesOrder}"
+						},
+						{
+							"KeyName": "SalesOrderItem",
+							"Value": "{SalesOrderItem}"
+						},
+						{
+							"KeyName": "HigherLevelItem",
+							"Value": "{HigherLevelItem}"
+						},
+						{
+							"KeyName": "SalesOrderItemCategory",
+							"Value": "{SalesOrderItemCategory}"
+						},
+						{
+							"KeyName": "SalesOrderItemText",
+							"Value": "{SalesOrderItemText}"
+						},
+						{
+							"KeyName": "PurchaseOrderByCustomer",
+							"Value": "{PurchaseOrderByCustomer}"
+						},
+						{
+							"KeyName": "PurchaseOrderByShipToParty",
+							"Value": "{PurchaseOrderByShipToParty}"
+						},
+						{
+							"KeyName": "Material",
+							"Value": "{Material}"
+						},
+						{
+							"KeyName": "MaterialByCustomer",
+							"Value": "{MaterialByCustomer}"
+						},
+						{
+							"KeyName": "PricingDate",
+							"Value": "{PricingDate}"
+						},
+						{
+							"KeyName": "PricingReferenceMaterial",
+							"Value": "{PricingReferenceMaterial}"
+						},
+						{
+							"KeyName": "RequestedQuantity",
+							"Value": "{RequestedQuantity}"
+						},
+						{
+							"KeyName": "RequestedQuantityUnit",
+							"Value": "{RequestedQuantityUnit}"
+						},
+						{
+							"KeyName": "RequestedQuantitySAPUnit",
+							"Value": "{RequestedQuantitySAPUnit}"
+						},
+						{
+							"KeyName": "RequestedQuantityISOUnit",
+							"Value": "{RequestedQuantityISOUnit}"
+						},
+						{
+							"KeyName": "ItemGrossWeight",
+							"Value": "{ItemGrossWeight}"
+						},
+						{
+							"KeyName": "ItemNetWeight",
+							"Value": "{ItemNetWeight}"
+						},
+						{
+							"KeyName": "ItemWeightUnit",
+							"Value": "{ItemWeightUnit}"
+						},
+						{
+							"KeyName": "ItemWeightSAPUnit",
+							"Value": "{ItemWeightSAPUnit}"
+						},
+						{
+							"KeyName": "ItemWeightISOUnit",
+							"Value": "{ItemWeightISOUnit}"
+						},
+						{
+							"KeyName": "ItemVolume",
+							"Value": "{ItemVolume}"
+						},
+						{
+							"KeyName": "ItemVolumeUnit",
+							"Value": "{ItemVolumeUnit}"
+						},
+						{
+							"KeyName": "ItemVolumeSAPUnit",
+							"Value": "{ItemVolumeSAPUnit}"
+						},
+						{
+							"KeyName": "ItemVolumeISOUnit",
+							"Value": "{ItemVolumeISOUnit}"
+						},
+						{
+							"KeyName": "TransactionCurrency",
+							"Value": "{TransactionCurrency}"
+						},
+						{
+							"KeyName": "NetAmount",
+							"Value": "{NetAmount}"
+						},
+						{
+							"KeyName": "MaterialGroup",
+							"Value": "{MaterialGroup}"
+						},
+						{
+							"KeyName": "MaterialPricingGroup",
+							"Value": "{MaterialPricingGroup}"
+						},
+						{
+							"KeyName": "Batch",
+							"Value": "{Batch}"
+						},
+						{
+							"KeyName": "ProductionPlant",
+							"Value": "{ProductionPlant}"
+						},
+						{
+							"KeyName": "StorageLocation",
+							"Value": "{StorageLocation}"
+						},
+						{
+							"KeyName": "DeliveryGroup",
+							"Value": "{DeliveryGroup}"
+						},
+						{
+							"KeyName": "ShippingPoint",
+							"Value": "{ShippingPoint}"
+						},
+						{
+							"KeyName": "ShippingType",
+							"Value": "{ShippingType}"
+						},
+						{
+							"KeyName": "DeliveryPriority",
+							"Value": "{DeliveryPriority}"
+						},
+						{
+							"KeyName": "DeliveryDateTypeRule",
+							"Value": "{DeliveryDateTypeRule}"
+						},
+						{
+							"KeyName": "IncotermsClassification",
+							"Value": "{IncotermsClassification}"
+						},
+						{
+							"KeyName": "IncotermsTransferLocation",
+							"Value": "{IncotermsTransferLocation}"
+						},
+						{
+							"KeyName": "IncotermsLocation1",
+							"Value": "{IncotermsLocation1}"
+						},
+						{
+							"KeyName": "IncotermsLocation2",
+							"Value": "{IncotermsLocation2}"
+						},
+						{
+							"KeyName": "ProductTaxClassification1",
+							"Value": "{ProductTaxClassification1}"
+						},
+						{
+							"KeyName": "ProductTaxClassification2",
+							"Value": "{ProductTaxClassification2}"
+						},
+						{
+							"KeyName": "ProductTaxClassification3",
+							"Value": "{ProductTaxClassification3}"
+						},
+						{
+							"KeyName": "ProductTaxClassification4",
+							"Value": "{ProductTaxClassification4}"
+						},
+						{
+							"KeyName": "ProductTaxClassification5",
+							"Value": "{ProductTaxClassification5}"
+						},
+						{
+							"KeyName": "ProductTaxClassification6",
+							"Value": "{ProductTaxClassification6}"
+						},
+						{
+							"KeyName": "ProductTaxClassification7",
+							"Value": "{ProductTaxClassification7}"
+						},
+						{
+							"KeyName": "ProductTaxClassification8",
+							"Value": "{ProductTaxClassification8}"
+						},
+						{
+							"KeyName": "ProductTaxClassification9",
+							"Value": "{ProductTaxClassification9}"
+						},
+						{
+							"KeyName": "MatlAccountAssignmentGroup",
+							"Value": "{MatlAccountAssignmentGroup}"
+						},
+						{
+							"KeyName": "CustomerPaymentTerms",
+							"Value": "{CustomerPaymentTerms}"
+						},
+						{
+							"KeyName": "CustomerGroup",
+							"Value": "{CustomerGroup}"
+						},
+						{
+							"KeyName": "SalesDocumentRjcnReason",
+							"Value": "{SalesDocumentRjcnReason}"
+						},
+						{
+							"KeyName": "ItemBillingBlockReason",
+							"Value": "{ItemBillingBlockReason}"
+						},
+						{
+							"KeyName": "SlsDocIsRlvtForProofOfDeliv",
+							"Value": "{SlsDocIsRlvtForProofOfDeliv}"
+						},
+						{
+							"KeyName": "WBSElement",
+							"Value": "{WBSElement}"
+						},
+						{
+							"KeyName": "ProfitCenter",
+							"Value": "{ProfitCenter}"
+						},
+						{
+							"KeyName": "AccountingExchangeRate",
+							"Value": "{AccountingExchangeRate}"
+						},
+						{
+							"KeyName": "ReferenceSDDocument",
+							"Value": "{ReferenceSDDocument}"
+						},
+						{
+							"KeyName": "ReferenceSDDocumentItem",
+							"Value": "{ReferenceSDDocumentItem}"
+						},
+						{
+							"KeyName": "SDProcessStatus",
+							"Value": "{SDProcessStatus}"
+						},
+						{
+							"KeyName": "DeliveryStatus",
+							"Value": "{DeliveryStatus}"
+						},
+						{
+							"KeyName": "OrderRelatedBillingStatus",
+							"Value": "{OrderRelatedBillingStatus}"
+						},
+						{
+							"KeyName": "RequirementSegment",
+							"Value": "{RequirementSegment}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"Header": {
+						"Caption": "to_Partner"
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{PartnerFunction}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{SalesOrder}",
+						"Footnote": "{Customer}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{Supplier}",
+						"Subhead": "{SalesOrderItem}",
+						"SubstatusText": "{Personnel}",
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderItemPartner/NavToA_SalesOrderItemPartner_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/to_Partner",
+						"Service": "/NewCXPortal/Services/S4H.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "to_PricingElement"
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{PricingProcedureStep}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{SalesOrder}",
+						"Footnote": "{PricingProcedureCounter}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{ConditionType}",
+						"Subhead": "{SalesOrderItem}",
+						"SubstatusText": "{PricingDateTime}",
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderItemPrElement/NavToA_SalesOrderItemPrElement_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/to_PricingElement",
+						"Service": "/NewCXPortal/Services/S4H.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "to_ScheduleLine"
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{ScheduleLine}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{SalesOrder}",
+						"Footnote": "{RequestedDeliveryDate}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{ConfirmedDeliveryDate}",
+						"Subhead": "{SalesOrderItem}",
+						"SubstatusText": "{OrderQuantityUnit}",
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderScheduleLine/NavToA_SalesOrderScheduleLine_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/to_ScheduleLine",
+						"Service": "/NewCXPortal/Services/S4H.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "to_Text"
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{SalesOrderItem}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{LongTextID}",
+						"Footnote": "{Language}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{LongText}",
+						"Subhead": "{SalesOrder}",
+						"SubstatusText": "",
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderItemText/NavToA_SalesOrderItemText_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/to_Text",
+						"Service": "/NewCXPortal/Services/S4H.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"DataSubscriptions": [
+				"A_SalesOrderItemPartner",
+				"A_SalesOrderItemPrElement",
+				"A_SalesOrderScheduleLine",
+				"A_SalesOrderItemText"
+			],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrderItem_Detail",
+	"PrefersLargeCaption": true
+}

@@ -1,0 +1,12 @@
+{
+	"_Type": "Page",
+	"_Name": "BusinessPartners",
+	"Controls": [
+		{
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"Caption": "BusinessPartners",
+	"PrefersLargeCaption": true
+}

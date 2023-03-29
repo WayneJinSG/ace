@@ -1,0 +1,70 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": false
+					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "A_SalesOrder",
+						"Service": "/NewCXPortal/Services/S4H.service",
+						"QueryOptions": ""
+					},
+					"_Name": "SectionObjectTable0",
+					"EmptySection": {
+						"Caption": "No record found!",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true
+						},
+						"Title": "{SenderBusinessSystemName}",
+						"Subhead": "{SalesOrder}",
+						"Footnote": "{SalesOrganization}",
+						"Description": "{SalesOrderType}",
+						"StatusText": "{DistributionChannel}",
+						"SubstatusText": "{OrganizationDivision}",
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"Tags": [],
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrder/NavToA_SalesOrder_Detail.action"
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Item Search",
+						"BarcodeScanner": true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": true,
+						"LoadingIndicatorText": "Loading more items, please wait..."
+					}
+				}
+			],
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": "Loading, please wait..."
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrder_List",
+	"Caption": "A_SalesOrder",
+	"PrefersLargeCaption": true
+}

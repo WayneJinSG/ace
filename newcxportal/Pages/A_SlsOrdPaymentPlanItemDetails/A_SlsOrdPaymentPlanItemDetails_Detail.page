@@ -1,0 +1,165 @@
+{
+	"Caption": "A_SlsOrdPaymentPlanItemDetailsType Detail",
+	"DesignTimeTarget": {
+		"Service": "/NewCXPortal/Services/S4H.service",
+		"EntitySet": "A_SlsOrdPaymentPlanItemDetails",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{ElectronicPaymentHolderName}",
+						"Subhead": "{SalesOrder}",
+						"BodyText": "",
+						"Footnote": "{PaymentPlan}",
+						"Description": "{PaymentPlanItem}",
+						"StatusText": "{ElectronicPaymentType}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{ElectronicPayment}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "SalesOrder",
+							"Value": "{SalesOrder}"
+						},
+						{
+							"KeyName": "PaymentPlanItem",
+							"Value": "{PaymentPlanItem}"
+						},
+						{
+							"KeyName": "PaymentPlan",
+							"Value": "{PaymentPlan}"
+						},
+						{
+							"KeyName": "ElectronicPaymentType",
+							"Value": "{ElectronicPaymentType}"
+						},
+						{
+							"KeyName": "ElectronicPayment",
+							"Value": "{ElectronicPayment}"
+						},
+						{
+							"KeyName": "EPaytValidityStartDate",
+							"Value": "{EPaytValidityStartDate}"
+						},
+						{
+							"KeyName": "EPaytValidityEndDate",
+							"Value": "{EPaytValidityEndDate}"
+						},
+						{
+							"KeyName": "ElectronicPaymentHolderName",
+							"Value": "{ElectronicPaymentHolderName}"
+						},
+						{
+							"KeyName": "AuthorizedAmountInAuthznCrcy",
+							"Value": "{AuthorizedAmountInAuthznCrcy}"
+						},
+						{
+							"KeyName": "AuthorizationCurrency",
+							"Value": "{AuthorizationCurrency}"
+						},
+						{
+							"KeyName": "AuthorizationByDigitalPaytSrvc",
+							"Value": "{AuthorizationByDigitalPaytSrvc}"
+						},
+						{
+							"KeyName": "AuthorizationByAcquirer",
+							"Value": "{AuthorizationByAcquirer}"
+						},
+						{
+							"KeyName": "AuthorizationDate",
+							"Value": "{AuthorizationDate}"
+						},
+						{
+							"KeyName": "AuthorizationTime",
+							"Value": "{AuthorizationTime}"
+						},
+						{
+							"KeyName": "AuthorizationStatusName",
+							"Value": "{AuthorizationStatusName}"
+						},
+						{
+							"KeyName": "EPaytByDigitalPaymentSrvc",
+							"Value": "{EPaytByDigitalPaymentSrvc}"
+						},
+						{
+							"KeyName": "ElectronicPaymentCallStatus",
+							"Value": "{ElectronicPaymentCallStatus}"
+						},
+						{
+							"KeyName": "EPaytAuthorizationResult",
+							"Value": "{EPaytAuthorizationResult}"
+						},
+						{
+							"KeyName": "EPaytToBeAuthorizedAmount",
+							"Value": "{EPaytToBeAuthorizedAmount}"
+						},
+						{
+							"KeyName": "EPaytAuthorizationIsExpired",
+							"Value": "{EPaytAuthorizationIsExpired}"
+						},
+						{
+							"KeyName": "EPaytAmountIsChanged",
+							"Value": "{EPaytAmountIsChanged}"
+						},
+						{
+							"KeyName": "PreauthorizationIsRequested",
+							"Value": "{PreauthorizationIsRequested}"
+						},
+						{
+							"KeyName": "PaymentServiceProvider",
+							"Value": "{PaymentServiceProvider}"
+						},
+						{
+							"KeyName": "PaymentByPaymentServicePrvdr",
+							"Value": "{PaymentByPaymentServicePrvdr}"
+						},
+						{
+							"KeyName": "TransactionByPaytSrvcPrvdr",
+							"Value": "{TransactionByPaytSrvcPrvdr}"
+						},
+						{
+							"KeyName": "MerchantByClearingHouse",
+							"Value": "{MerchantByClearingHouse}"
+						},
+						{
+							"KeyName": "MaximumToBeAuthorizedAmount",
+							"Value": "{MaximumToBeAuthorizedAmount}"
+						},
+						{
+							"KeyName": "PaytPlnForAuthorizationItem",
+							"Value": "{PaytPlnForAuthorizationItem}"
+						},
+						{
+							"KeyName": "PaytPlnItmForAuthorizationItem",
+							"Value": "{PaytPlnItmForAuthorizationItem}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SlsOrdPaymentPlanItemDetails_Detail",
+	"PrefersLargeCaption": true
+}

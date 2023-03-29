@@ -1,0 +1,67 @@
+{
+	"Caption": "A_SalesOrderHeaderPartner",
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Header": {
+						"UseTopPadding": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{Customer}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrderHeaderPartner/NavToA_SalesOrderHeaderPartner_Detail.action",
+						"StatusImage": "",
+						"Title": "{SalesOrder}",
+						"Footnote": "{Supplier}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{Personnel}",
+						"Subhead": "{PartnerFunction}",
+						"SubstatusText": "{ContactPerson}"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Item Search",
+						"BarcodeScanner": true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": true,
+						"LoadingIndicatorText": "Loading more items, please wait..."
+					},
+					"Target": {
+						"EntitySet": "A_SalesOrderHeaderPartner",
+						"Service": "/NewCXPortal/Services/S4H.service",
+						"QueryOptions": ""
+					},
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": "Loading, please wait..."
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "A_SalesOrderHeaderPartner_List",
+	"PrefersLargeCaption": true
+}

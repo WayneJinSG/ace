@@ -1,0 +1,79 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"Service": "/NewCXPortal/Services/S4H_outbound_deliveries.service",
+						"EntitySet": "C_OutboundDeliveryList",
+						"QueryOptions": "$top=10"
+					},
+					"_Name": "SectionObjectTable0",
+					"Visible": true,
+					"EmptySection": {
+						"Caption": "No deliveries found",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true
+						},
+						"Title": "{DeliveryDocument}",
+						"Subhead": "Subhead",
+						"Footnote": "Footnote",
+						"Description": "Description",
+						"DisplayDescriptionInMobile": true,
+						"StatusText": "Status",
+						"SubstatusText": "Substatus",
+						"PreserveIconStackSpacing": true,
+						"AccessoryType": "none",
+						"ProgressIndicator": "inProgress",
+						"Tags": [
+							{
+								"Text": "tag"
+							}
+						],
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": "sap-icon://customer",
+									"ImageText": ""
+								}
+							],
+							"ImageIsCircular": true,
+							"ImageHasBorder": false
+						},
+						"AvatarGrid": {
+							"Avatars": [
+								{
+									"Image": "sap-icon://customer",
+									"ImageText": ""
+								}
+							],
+							"ImageIsCircular": true
+						},
+						"Selected": false
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					},
+					"HighlightSelectedItem": false,
+					"Selection": {
+						"ExitOnLastDeselect": true,
+						"LongPressToEnable": "None",
+						"Mode": "None"
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "DeliveryStatus",
+	"Caption": "Delivery Status",
+	"PrefersLargeCaption": true
+}

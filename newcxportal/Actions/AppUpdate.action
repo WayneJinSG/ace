@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/NewCXPortal/Rules/AppUpdateFailure.js",
+    "OnSuccess": "/NewCXPortal/Rules/AppUpdateSuccess.js"
+}

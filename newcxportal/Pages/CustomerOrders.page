@@ -1,0 +1,110 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"KeyAndValues": [
+						{
+							"Value": "/NewCXPortal/Rules/LoggedInUser.js",
+							"_Name": "KeyValue0",
+							"KeyName": "User:",
+							"Visible": true
+						},
+						{
+							"Value": "/NewCXPortal/Rules/FilterSalesOrderAPICallByUser.js",
+							"_Name": "KeyValue1",
+							"KeyName": "Select Statement:",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				},
+				{
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"Service": "/NewCXPortal/Services/S4H.service",
+						"EntitySet": "A_SalesOrder",
+						"QueryOptions": "/NewCXPortal/Rules/FilterSalesOrderAPICallByUser.js"
+					},
+					"_Name": "SectionObjectTable0",
+					"Visible": true,
+					"EmptySection": {
+						"Caption": "No Orders Found",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"ContextMenu": {
+							"Items": [],
+							"PerformFirstActionWithFullSwipe": true
+						},
+						"Title": "Order: {SalesOrder}",
+						"Subhead": "Customer: {SoldToParty}",
+						"Description": "Creation Date: $(D,{CreationDate},'','',{format:'medium'})",
+						"DisplayDescriptionInMobile": true,
+						"StatusText": "$(C,{TotalNetAmount},{TransactionCurrency},'',{maximumFractionDigits:2,useGrouping:true})",
+						"SubstatusText": "Processing Status: {OverallSDProcessStatus}",
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"Tags": [],
+						"AvatarStack": {
+							"Avatar": {
+								"Image": ""
+							},
+							"Avatars": [
+								{
+									"Image": "sap-icon://my-sales-order",
+									"Style": ""
+								}
+							],
+							"ImageIsCircular": true,
+							"ImageHasBorder": false
+						},
+						"AvatarGrid": {
+							"Avatar": {
+								"Image": ""
+							},
+							"Avatars": [
+								{
+									"Image": "sap-icon://customer",
+									"ImageText": "My text"
+								}
+							],
+							"ImageIsCircular": true
+						},
+						"OnPress": "/NewCXPortal/Actions/A_SalesOrder/NavToA_SalesOrder_Detail.action",
+						"Selected": false
+					},
+					"Search": {
+						"Enabled": true,
+						"BarcodeScanner": true
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					},
+					"HighlightSelectedItem": false,
+					"Selection": {
+						"ExitOnLastDeselect": true,
+						"LongPressToEnable": "None",
+						"Mode": "None"
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "CustomerOrders",
+	"Caption": "My Sales Orders",
+	"PrefersLargeCaption": true
+}

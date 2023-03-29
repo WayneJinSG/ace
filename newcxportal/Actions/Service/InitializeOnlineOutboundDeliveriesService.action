@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.ODataService.Initialize",
+	"ActionResult": {
+		"_Name": "InitializeOnlineOutboundDeliveriesService"
+	},
+	"OnFailure": "/NewCXPortal/Actions/Service/InitializeOnlineFailureMessage.action",
+	"OnSuccess": "/NewCXPortal/Actions/Service/InitializeOnlineSuccessMessage.action",
+	"ShowActivityIndicator": true,
+	"Service": "/NewCXPortal/Services/S4H_outbound_deliveries.service"
+}

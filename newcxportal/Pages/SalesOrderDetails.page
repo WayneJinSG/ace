@@ -1,0 +1,34 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"Value": "Value",
+							"_Name": "KeyValue0",
+							"KeyName": "Sales Order",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SalesOrderDetails",
+	"Caption": "Order Details",
+	"PrefersLargeCaption": true
+}
